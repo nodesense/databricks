@@ -38,10 +38,9 @@ databricks secrets   list-secrets gks_s3
 ## Secret with environment variables
 
 ```
+MY_USERNAME={{secrets/gks_s3/s3_username}}
+MY_PASSWORD={{secrets/gks_s3/s3_password}}
 
-
-myusername={{secrets/gks_s3/s3_username}}
-mypassword={{secrets/gks_s3/s3_password}}
 ```
 
 
